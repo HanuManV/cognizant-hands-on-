@@ -1,0 +1,1 @@
+export default function BlogDetails(){const blogs=[{id:1,title:"React Hooks",author:"John"},{id:2,title:"Spring Boot",author:"David"}];return(<div><h2>Blog Details</h2>{blogs.map(b=><div key={b.id}><p>Title: {b.title}</p><p>Author: {b.author}</p><hr/></div>)}</div>);}

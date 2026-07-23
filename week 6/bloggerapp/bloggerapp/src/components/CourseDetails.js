@@ -1,0 +1,1 @@
+export default function CourseDetails(){const courses=[{id:1,name:"React",duration:"2 Months"},{id:2,name:"Java Full Stack",duration:"4 Months"}];return(<div><h2>Course Details</h2>{courses.map(c=><div key={c.id}><p>Course: {c.name}</p><p>Duration: {c.duration}</p><hr/></div>)}</div>);}

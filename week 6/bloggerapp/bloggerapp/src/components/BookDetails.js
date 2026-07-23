@@ -1,0 +1,1 @@
+export default function BookDetails(){const books=[{id:1,name:"React Basics",price:550},{id:2,name:"Java Programming",price:700}];return(<div><h2>Book Details</h2>{books.map(b=><div key={b.id}><p>Name: {b.name}</p><p>Price: ₹{b.price}</p><hr/></div>)}</div>);}
